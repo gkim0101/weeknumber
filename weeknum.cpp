@@ -17,7 +17,7 @@ int main(){
 		<< now->tm_mday
 		<<std::endl;
 	
-	std::cout<<week_num(now)<<std::endl;
+	std::cout<<week_num(*now)<<std::endl;
 	
 
 	return 0;
